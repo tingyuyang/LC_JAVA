@@ -1,3 +1,5 @@
+//Basic Note
+
 import java.util.Arrays;// *this line is the point! to print whole list
 
 public class Main {
@@ -7,7 +9,6 @@ public class Main {
 		  System.out.println(Arrays.toString(intArray)); //*point
 	}
 }
-
 
 /*
 javac Main.java
