@@ -7,3 +7,9 @@ public class Main {
 		  System.out.println(Arrays.toString(intArray)); //*point
 	}
 }
+
+
+/*
+javac Main.java
+java Main
+*/
