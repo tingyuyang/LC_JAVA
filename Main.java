@@ -36,3 +36,9 @@ class Main {
 //[h, e, l, l, o]
 //hello world  
 }
+
+//the difference of s.length() and array.length
+String s ="hello";
+System.out.println(s.length()); //* notice "()" for String s
+String[] array=s.split("");
+System.out.println(array.length);//* no "()" for String[] array
