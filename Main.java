@@ -7,7 +7,6 @@ java Main
 
 //Main 1
 import java.util.Arrays;// *this line is the point! to print whole list
-
 public class Main {
 	public static void main(String[] args) {
     	System.out.println("hello world");
@@ -19,7 +18,6 @@ public class Main {
 
 //Main 2
 import java.util.Arrays;	//*
-
 class Main {
   public String reverseString(String s){
   	if (s==null || s.length()==0){
@@ -28,8 +26,7 @@ class Main {
   	String[] array=s.split("");
   	System.out.println(Arrays.toString(array));	//*
   	return ("a");
-  }
-  
+  } 
   public static void main(String[] args) {
     String s ="hello";
     Main m=new Main();	//*
@@ -37,6 +34,5 @@ class Main {
     System.out.println("hello world");
   }
 //[h, e, l, l, o]
-//hello world
-  
+//hello world  
 }
