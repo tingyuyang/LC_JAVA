@@ -6,7 +6,11 @@ Given s = "hello", return "olleh".
 */
 //relate solution: http://blog.csdn.net/crazy1235/article/details/51420522
 
-//Solution 1: 
+//Solution 1:
+//can just be one line
+return new StringBuffer(s).reverse().toString();
+
+//Solution 2: 
 //TIME EXCEED :(!!!!
 import java.util.Arrays;
 class Main {
@@ -30,6 +34,4 @@ class Main {
   
 }
 
-//Solution 2:
-//can just be one line
-return new StringBuffer(s).reverse().toString();
+
