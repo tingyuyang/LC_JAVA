@@ -42,3 +42,10 @@ String s ="hello";
 System.out.println(s.length()); //* notice "()" for String s
 String[] array=s.split("");
 System.out.println(array.length);//* no "()" for String[] array
+
+//different print out
+String s ="hello";
+System.out.println(s);
+
+String[] array=s.split("");
+System.out.println(Arrays.toString(array));
