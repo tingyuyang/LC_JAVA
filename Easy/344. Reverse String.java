@@ -1,5 +1,14 @@
-import java.util.Arrays;
+/*
+Write a function that takes a string as input and returns the string reversed.
 
+Example:
+Given s = "hello", return "olleh".
+*/
+
+//relate solution: http://blog.csdn.net/crazy1235/article/details/51420522
+
+//TIME EXCEED :(!!!!
+import java.util.Arrays;
 class Main {
   public String reverseString(String s){
   	String[] array=s.split("");
