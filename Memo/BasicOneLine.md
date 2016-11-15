@@ -26,4 +26,17 @@ public static void main(String[] args) {
     Arrays.sort(num);//***
     System.out.println(Arrays.toString(num));//***
   }
+  
+//the difference of s.length() and array.length
+String s ="hello";
+System.out.println(s.length()); //* notice "()" for String s
+String[] array=s.split("");
+System.out.println(array.length);//* no "()" for String[] array
+
+//different print out
+String s ="hello";
+System.out.println(s);
+
+String[] array=s.split("");
+System.out.println(Arrays.toString(array));
 ```
