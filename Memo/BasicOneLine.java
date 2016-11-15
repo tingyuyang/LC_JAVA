@@ -1,6 +1,3 @@
-#One Line
-
- 
 //>int to string
 int num=38;
 String numStr=Integer.toString(num);//**NEED TO BE STORED
