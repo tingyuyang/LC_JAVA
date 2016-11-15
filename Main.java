@@ -60,3 +60,8 @@ public static void main(String[] args) {
     Arrays.sort(num);//***
     System.out.println(Arrays.toString(num));//***
   }
+
+// int to string
+int num=38;
+String numStr=Integer.toString(num);//**NEED TO BE STORED
+System.out.println(numStr.length());
