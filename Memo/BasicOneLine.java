@@ -4,8 +4,8 @@ String numStr=Integer.toString(num);//**NEED TO BE STORED
 System.out.println(numStr.length());
 
 // >Convert one integer into list
-* java is annoyting. u could not really manipulate the string. 
-* so u have to convert int into string, then split them into list
+// java is annoyting. u could not really manipulate the string. 
+// so u have to convert int into string, then split them into list
 
 int num =38;
 String[] numStr = Integer.toString(num).split("");
