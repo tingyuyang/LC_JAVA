@@ -1,21 +1,20 @@
 #One Line
 
-## >int to string
-```java
+ 
+//>int to string
 int num=38;
 String numStr=Integer.toString(num);//**NEED TO BE STORED
 System.out.println(numStr.length());
-```
 
-## >Convert one integer into list
+// >Convert one integer into list
 * java is annoyting. u could not really manipulate the string. 
 * so u have to convert int into string, then split them into list
-```java
+
 int num =38;
-String[] s = Integer.toString(num).split("");
-```
-## >Simple Method
-```java
+String[] numStr = Integer.toString(num).split("");
+int result=0;
+result+=Integer.parseInt(numStr[1]);
+
 //declare int array
 int[] intArray = new int[] {4,5,6,7,8};
 
@@ -39,4 +38,3 @@ System.out.println(s);
 
 String[] array=s.split("");
 System.out.println(Arrays.toString(array));
-```
