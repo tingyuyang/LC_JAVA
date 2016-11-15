@@ -52,3 +52,11 @@ System.out.println(Arrays.toString(array));
 
 //declare int array
 int[] intArray = new int[] {4,5,6,7,8};
+
+//sort method
+public static void main(String[] args) {
+    Main m=new Main();
+    int[] num= new int[] {2,2,1,1,3};
+    Arrays.sort(num);//***
+    System.out.println(Arrays.toString(num));//***
+  }
