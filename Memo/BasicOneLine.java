@@ -1,3 +1,5 @@
+// java inconvinience sample practice: https://github.com/tingyuyang/LC_JAVA/blob/master/Easy/258.%20Add%20Digits.java
+
 //>int to string
 int num=38;
 String numStr=Integer.toString(num);//**NEED TO BE STORED
