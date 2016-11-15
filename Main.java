@@ -49,3 +49,6 @@ System.out.println(s);
 
 String[] array=s.split("");
 System.out.println(Arrays.toString(array));
+
+//declare int array
+int[] intArray = new int[] {4,5,6,7,8};
