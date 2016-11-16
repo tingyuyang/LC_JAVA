@@ -1,3 +1,8 @@
+/*
+reference:
+http://www.cnblogs.com/grandyang/p/4447233.html
+http://www.cnblogs.com/grandyang/p/5560036.html
+*/
 public class Solution {
     public boolean isHappy(int n) {
         if (n==1){
