@@ -6,8 +6,7 @@ class Main {
   	boolean result=false;
   	if (n<4){
   		result= true;
-  	}
-  	else if (n%4!=0){
+  	} else if (n%4!=0){
   		result= true;
   	}
   	return result;
