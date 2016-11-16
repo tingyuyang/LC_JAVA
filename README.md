@@ -8,5 +8,7 @@ Java Practice
   * [HashSet](https://www.tutorialspoint.com/java/java_hashset_class.htm)
   * [Set](https://www.tutorialspoint.com/java/java_set_interface.htm)
     * "A Set is a Collection that cannot contain duplicate elements."
-    * Sample code: [Set.java](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/Set.java)
+    * Sample Practice: 
+      * [Set.java](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/Set.java)
+      * [Happy Number](https://github.com/tingyuyang/LC_JAVA/blob/master/Easy/202.%20Happy%20Number.java)
 * [Call method from another class](http://stackoverflow.com/questions/4593232/how-to-call-a-method-in-another-class-in-java)
