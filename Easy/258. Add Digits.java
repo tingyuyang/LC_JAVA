@@ -3,12 +3,12 @@ public class Solution {
         int result =n;
         int reminder=0;
         while (result>=10){ //pay attention "=" 10
-        	n=result;
-        	result=0;
-        	while (n!=0){
-    	    	reminder=n%10;
-    	    	n=n/10;
-    	    	result+=reminder;
+            n=result;
+            result=0;
+            while (n!=0){
+                    reminder=n%10;
+                    n=n/10;
+                    result+=reminder;
         	}
         }   
     return result;
