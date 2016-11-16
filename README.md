@@ -9,3 +9,4 @@ Java Practice
   * [Set](https://www.tutorialspoint.com/java/java_set_interface.htm)
     * "A Set is a Collection that cannot contain duplicate elements."
     * Sample code: [Set.java](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/Set.java)
+* [Call method from another class](http://stackoverflow.com/questions/4593232/how-to-call-a-method-in-another-class-in-java)
