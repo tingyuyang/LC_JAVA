@@ -8,3 +8,4 @@ Java Practice
   * [HashSet](https://www.tutorialspoint.com/java/java_hashset_class.htm)
   * [Set](https://www.tutorialspoint.com/java/java_set_interface.htm)
     * "A Set is a Collection that cannot contain duplicate elements."
+    * Sample code: [Set.java](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/Set.java)
