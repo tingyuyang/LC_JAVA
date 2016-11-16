@@ -7,3 +7,4 @@ Java Practice
   * [HashMap](https://www.tutorialspoint.com/java/java_hashmap_class.htm)
   * [HashSet](https://www.tutorialspoint.com/java/java_hashset_class.htm)
   * [Set](https://www.tutorialspoint.com/java/java_set_interface.htm)
+    * "A Set is a Collection that cannot contain duplicate elements."
