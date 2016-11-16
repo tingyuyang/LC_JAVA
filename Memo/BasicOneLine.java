@@ -1,5 +1,8 @@
 // java inconvinience sample practice: https://github.com/tingyuyang/LC_JAVA/blob/master/Easy/258.%20Add%20Digits.java
 
+//power/square
+int r=(int)Math.pow(2,2); //if no "(int)", it will return 4.0
+
 //>int to string
 int num=38;
 String numStr=Integer.toString(num);//**NEED TO BE STORED
