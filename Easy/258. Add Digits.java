@@ -1,3 +1,19 @@
+public class Solution {
+    public int addDigits(int n) {
+        int result =n;
+        int reminder=0;
+        while (result>=10){ //pay attention "=" 10
+        	n=result;
+        	result=0;
+        	while (n!=0){
+    	    	reminder=n%10;
+    	    	n=n/10;
+    	    	result+=reminder;
+        	}
+        }   
+    return result;
+    }
+}
 //method copy from python, 
 //java makes it so much more complicated....ewww...
 //string array to int, int to array...could not really manipulate together. annoying!
