@@ -11,7 +11,7 @@ public class Solution {
                     result+=reminder;
         	}
         }   
-    return result;
+        return result;
     }
 }
 //method copy from python, 
