@@ -29,3 +29,31 @@ public class Solution {
     	return false;
     }
 }
+
+//clean version:(same thought)
+class Main {
+	public boolean isHappy(int n) {
+        if (n==1){
+            return true;
+        }
+     	Set<Integer> set = new HashSet<Integer>();
+    	while (n!=1){ 
+            int result=0;
+            while (n!=0){
+                    result+=(n%10)*(n%10);
+                    n=n/10;
+        	}
+        	if (set.contains(result)) break;//**
+        	set.add(result);
+        	n=result;
+        	System.out.println(set);
+    	}
+    	
+    	return set.contains(1);//**
+    }
+    
+	public static void main(String[] args) {
+		Main m=new Main();
+		System.out.println(m.isHappy(19));
+  }
+}
