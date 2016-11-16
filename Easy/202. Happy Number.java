@@ -4,7 +4,8 @@ http://www.cnblogs.com/grandyang/p/4447233.html ***
 http://www.cnblogs.com/grandyang/p/5560036.html
 */
 //i used set here
-//clean version:(same thought)
+//clean version:
+import java.util.*;//**
 class Main {
 	public boolean isHappy(int n) {
         if (n==1){
