@@ -13,6 +13,6 @@ public class Solution {
             sum+=nums[i];
         }
         int expect = (1+nums.length)*nums.length/2;
-        return ( expect-sum);
+        return ( expect-sum); // pay attention. "expect -num" instead of another way around.
     }
 }
