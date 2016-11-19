@@ -6,6 +6,8 @@ Java Practice
   * e.g. LinkedList, HashSet, and TreeSet,
   * [HashMap](https://www.tutorialspoint.com/java/java_hashmap_class.htm)
     * [HashMap.java (How to iterate through hashmap)](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/HashMap.java)
+    * Simple Practice:
+      * [Two Sum](https://github.com/tingyuyang/LC_JAVA/blob/master/Easy/1.%20Two%20Sum.java)
   * [HashSet](https://www.tutorialspoint.com/java/java_hashset_class.htm)
   * [Set](https://www.tutorialspoint.com/java/java_set_interface.htm)
     * "A Set is a Collection that cannot contain duplicate elements."
