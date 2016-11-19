@@ -1,3 +1,21 @@
+//
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    // Create a hash map
+      HashMap<Integer,String> map=new HashMap<>();// Integer would be the key, String would be value
+      map.put(1, "One");
+      map.put(2, "Two");
+      System.out.println(map.get(1));//map.get is for the KEY
+      
+      for (Map.Entry<Integer,String> entry: map.entrySet()){	//"<Integer,String>" is important!
+        int key = entry.getKey();
+        String value = entry.getValue();
+        System.out.println(key + ":"+value);
+      }
+  }
+}
+
 // How to iterate through hashmap
 import java.util.*;
 
