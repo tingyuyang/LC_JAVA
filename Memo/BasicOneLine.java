@@ -1,4 +1,8 @@
 // java inconvinience sample practice: https://github.com/tingyuyang/LC_JAVA/blob/master/Easy/258.%20Add%20Digits.java
+//declare int array
+int[] intArray = new int[] {4,5,6,7,8};
+//or easier:
+int[] intArray = {4,5,6,7,8};
 
 //power/square
 int r=(int)Math.pow(2,2); //if no "(int)", it will return 4.0
@@ -17,8 +21,7 @@ int result=0;
 result+=Integer.parseInt(numStr[1]); //***manipulate string array with int."parseInt"
 //WOW, isnt this annoying
 
-//declare int array
-int[] intArray = new int[] {4,5,6,7,8};
+
 
 //sort method
 public static void main(String[] args) {
