@@ -16,6 +16,23 @@ class Main {
   }
 }
 
+//Another map example
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+      HashMap<String, Double> hm = new HashMap<>();
+      hm.put("Zara", 3434.34);
+      hm.put("Mahnaz",123.22);
+      for (Map.Entry<String, Double> entry : hm.entrySet()){
+        String key = entry.getKey();
+        Double value = entry.getValue();
+        System.out.println(key+":"+value);
+      }
+  }
+}
+
+
 // How to iterate through hashmap
 import java.util.*;
 
