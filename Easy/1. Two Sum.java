@@ -9,8 +9,8 @@ public class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> map=new HashMap<>();
         for (int i=0; i < nums.length;i++){
-          if (map.containsKey(nums[i])){
-            int[] result= {map.get(nums[i]), i };
+          if (map.containsKey(nums[i])){   //*map.contains(X)
+            int[] result= {map.get(nums[i]), i };   //*map.get(X)
             return result;
           }
           int rest = target-nums[i];
@@ -47,8 +47,8 @@ class Main {
   public int[] twoSum(int[]nums,int target){
     HashMap<Integer,Integer> map=new HashMap<>();
     for (int i=0; i < nums.length;i++){
-      if (map.containsKey(nums[i])){    //*map.contains(X)
-        int[] result= {map.get(nums[i]), i };   //*map.get(X)
+      if (map.containsKey(nums[i])){ 
+        int[] result= {map.get(nums[i]), i };
         return result;
       }
       int rest = target-nums[i];
