@@ -5,7 +5,7 @@ Java Practice
 * [Java set of standard interfaces](https://www.tutorialspoint.com/java/java_collections.htm)
   * e.g. LinkedList, HashSet, and TreeSet,
   * [HashMap](https://www.tutorialspoint.com/java/java_hashmap_class.htm)
-    * [HashMap.java (How to iterate through hashmap)](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/HashMap.java)
+    * [HashMap.java ](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/HashMap.java)(How to iterate through hashmap)
     * Simple Practice:
       * [Two Sum](https://github.com/tingyuyang/LC_JAVA/blob/master/Easy/1.%20Two%20Sum.java)
   * [HashSet](https://www.tutorialspoint.com/java/java_hashset_class.htm)
