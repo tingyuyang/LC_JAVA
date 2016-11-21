@@ -26,3 +26,9 @@ ORDER BY Country DESC;
 SELECT * FROM Customers
 ORDER BY Country ASC, CustomerName DESC;
 ```
+* UPDATE
+```SQL
+UPDATE Customers
+SET City="New York" AND Country ="America"
+WHERE CustomerID = "1"
+```
