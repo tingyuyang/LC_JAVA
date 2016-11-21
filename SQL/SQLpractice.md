@@ -26,9 +26,13 @@ ORDER BY Country DESC;
 SELECT * FROM Customers
 ORDER BY Country ASC, CustomerName DESC;
 ```
-* UPDATE
+* UPDATE(after update, you need the "SELECT" equation to check the new table )
 ```SQL
 UPDATE Customers
 SET City="New York" 
-WHERE CustomerID = "1"
+WHERE CustomerID = "1";
+
+UPDATE Customers
+SET City="New York", Country = "America"
+WHERE CustomerID = "1";
 ```
