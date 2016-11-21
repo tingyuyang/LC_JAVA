@@ -1,4 +1,8 @@
 #SQL Practice
+* FROM is the table name
+```SQL
+SELECT * FROM Customers
+```
 * WHERE operator(The WHERE clause is used to filter records.)
 ```SQL
 SELECT * FROM Customers
@@ -13,4 +17,12 @@ AND City = "Berlin";
 SELECT * FROM Customers
 WHERE Country="Germany"
 AND City = "Berlin" OR City = "Mannheim";
+```
+* Order (ASC/DESC)
+```SQL
+SELECT * FROM Customers
+ORDER BY Country DESC;
+
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
 ```
