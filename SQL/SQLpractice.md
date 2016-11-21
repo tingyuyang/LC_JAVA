@@ -56,7 +56,7 @@ SELECT TOP 50 PERCENT * FROM Customers;
 SELECT TOP 50 * FROM Customers;
 ```
 * LIKE
- * LIKE "%land%" will select the rows Where country include "land" in it(e.g. Switzerland, Ireland)
+ * LIKE "%land%" will select the rows Where country include "land" in it(e.g. Switzerland, Ireland):
 ```SQL
 SELECT * FROM Customers
 WHERE Country LIKE "%land%";
