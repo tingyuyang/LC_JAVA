@@ -1,4 +1,5 @@
 #SQL Practice
+* the "*" sign is always before FROM
 * FROM is the table name
 ```SQL
 SELECT * FROM Customers;
