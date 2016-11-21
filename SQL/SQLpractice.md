@@ -8,6 +8,12 @@ SELECT * FROM Customers;
 SELECT * FROM Customers
 WHERE Country="Mexico";
 ```
+* If only wanna the result display specific Column
+ * Display CustomerName and Address only
+```SQL
+SELECT CustomerName, Address FROM Customers
+WHERE Country="Mexico";
+```
 * AND/OR operator
 ```SQL
 SELECT * FROM Customers
