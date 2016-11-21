@@ -1,7 +1,7 @@
 #SQL Practice
 * FROM is the table name
 ```SQL
-SELECT * FROM Customers
+SELECT * FROM Customers;
 ```
 * WHERE operator(The WHERE clause is used to filter records.)
 ```SQL
@@ -35,4 +35,10 @@ WHERE CustomerID = "1";
 UPDATE Customers
 SET City="New York", Country = "America"
 WHERE CustomerID = "1";
+```
+* DELETE
+  *The equation below delete all the rows (where Country = "Mexico")
+```
+DELETE FROM Customers
+WHERE Country = "Mexico";
 ```
