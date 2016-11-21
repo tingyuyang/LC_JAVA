@@ -38,7 +38,7 @@ WHERE CustomerID = "1";
 ```
 * DELETE
   *The equation below delete all the rows (where Country = "Mexico")
-```
+```SQL
 DELETE FROM Customers
 WHERE Country = "Mexico";
 ```
