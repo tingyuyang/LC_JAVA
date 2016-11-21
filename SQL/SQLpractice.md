@@ -29,6 +29,6 @@ ORDER BY Country ASC, CustomerName DESC;
 * UPDATE
 ```SQL
 UPDATE Customers
-SET City="New York" AND Country ="America"
+SET City="New York" 
 WHERE CustomerID = "1"
 ```
