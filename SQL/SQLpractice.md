@@ -48,7 +48,7 @@ WHERE CustomerID = "1";
 DELETE FROM Customers
 WHERE Country = "Mexico";
 ```
-* TOP(top50 v.s. top50%)
+* TOP (top50 v.s. top50%)
 ```SQL
 SELECT TOP 50 PERCENT * FROM Customers;
 
