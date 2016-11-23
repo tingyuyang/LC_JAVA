@@ -4,6 +4,13 @@ int[] intArray = new int[] {4,5,6,7,8};
 //or easier:
 int[] intArray = {4,5,6,7,8};
 
+//char method, & assign null value to char. use Character
+//looks like only use *keyword* "Character" would work for both single char,or null value. 
+public Character findChar(String input){
+    Character ch='a';
+    return ch;
+  }
+
 //power/square
 int r=(int)Math.pow(2,2); //if no "(int)", it will return 4.0
 
