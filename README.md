@@ -8,6 +8,7 @@ Java Practice
     * [HashMap.java ](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/HashMap.java)(How to iterate through hashmap)
     * Simple Practice:
       * [Two Sum](https://github.com/tingyuyang/LC_JAVA/blob/master/Easy/1.%20Two%20Sum.java)
+      * [Char more than half](https://github.com/tingyuyang/LC_JAVA/blob/master/charMoreThanHalf.java)
   * [HashSet](https://www.tutorialspoint.com/java/java_hashset_class.htm)
   * [Set](https://www.tutorialspoint.com/java/java_set_interface.htm)
     * "A Set is a Collection that cannot contain duplicate elements."
