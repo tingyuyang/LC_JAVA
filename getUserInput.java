@@ -17,11 +17,11 @@ class Main {
   public static void main(String[] args) {
     System.out.println("if you want to quit, input 'q'");
     Scanner input=new Scanner(System.in);
-    String s ="";
+    String s ="";       //*** pay attention to the doube quote ""
     while (true){
       System.out.println("Do you want to quit? :");
       s=input.nextLine();
-      if (s.equals("q")){   //****"q" double quote. not single quote.
+      if (s.equals("q")){   //***"q" double quote. not single quote.
         System.out.println("Ok, you want to quit");
         break;
       } else{
