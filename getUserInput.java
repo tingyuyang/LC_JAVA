@@ -21,7 +21,7 @@ class Main {
     while (true){
       System.out.println("Do you want to quit? :");
       s=input.nextLine();
-      if (s.equals("q")){
+      if (s.equals("q")){   //****"q" double quote. not single quote.
         System.out.println("Ok, you want to quit");
         break;
       } else{
