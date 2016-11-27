@@ -15,6 +15,7 @@ class Main {
     Stack stack = new Stack();
     
     String s="-1.3 +5.1/3-0.8";
+    //String s ="5.6/0.7*2- 3.5";
     s=s.replaceAll("\\s+","");  //remove all the extra space!
     String str ="";
     
@@ -28,7 +29,7 @@ class Main {
         r = Double.parseDouble(str);
         if (sign =='+'){stack.push(r);}
         if (sign =='-'){stack.push(-r);}
-        if (sign =='*'){stack.push((Double)stack.pop()*r);}
+        if (sign =='*'){stack.push((Double)stack.pop()*r);}   //***Double for stack.pop()
         if (sign =='/'){stack.push((Double)stack.pop()/r);}
         sign =s.charAt(i);
         r=0;
@@ -40,5 +41,8 @@ class Main {
       finalResult+= (Double)stack.pop();
     }
     System.out.println(finalResult);
+    // if i wang to have round off 1 decimal point:
+    double roundOff = Math.round(finalResult * 100.0) / 100.0;
+    System.out.println(roundOff);
   }
 }
