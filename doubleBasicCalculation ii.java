@@ -21,10 +21,10 @@ class Main {
     double r = 0;
     double finalResult = 0;
     for (int i =0; i<s.length(); i++){
-      if (i==0 || s.charAt(i)>'0' || s.charAt(i)=='.'){
+      if (i==0 || s.charAt(i)>'0' || s.charAt(i)=='.'){ //***the condition is crutial! "i==0"(for "-1.3")
         str+=Character.toString(s.charAt(i));   // not symbol, add into str
       }
-      if (s.charAt(i)<'0' && s.charAt(i)!='.' && i!=0 || i==s.length()-1){
+      if (s.charAt(i)<'0' && s.charAt(i)!='.' && i!=0 || i==s.length()-1){  //***the condition is crutial!
         r = Double.parseDouble(str);
         if (sign =='+'){stack.push(r);}
         if (sign =='-'){stack.push(-r);}
