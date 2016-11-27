@@ -5,6 +5,7 @@
   * e.g. LinkedList, HashSet, and TreeSet,
   * Stack
      * [(***)Double Basic Calculation ii.java](https://github.com/tingyuyang/LC_JAVA/blob/master/doubleBasicCalculation%20ii.java)
+       * 知识点有:Stack，Character, Double[(Double)stack.pop()*r) or Double.parseDouble(str)],How to remove extra spaces, Pop till stack.empty(), Round off decimal points.
      * [Stack.java](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/Stack.java)
   * [HashMap](https://www.tutorialspoint.com/java/java_hashmap_class.htm)
     * [HashMap.java ](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/HashMap.java)(How to iterate through hashmap)
