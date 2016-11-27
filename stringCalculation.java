@@ -16,3 +16,28 @@ class Main {//remember to figure out get rid of spaces
     }
   }
 }
+
+//final approach, did not work....
+import java.util.*;
+class Main {//remember to figure out get rid of spaces
+  public static void main(String[] args) {
+    String name="6/3";//"figure out -1.3 later!
+    String r = "";
+    double foo = 0;
+    //double result = Double.parseDouble(Character.toString(name.charAt(0)));
+    double result =1;
+    for(int i= 0; i< name.length(); i++){
+      if(name.charAt(i)!='/' && name.charAt(i)!='*' && name.charAt(i)!='+' && name.charAt(i)!='–'){
+        r += Character.toString(name.charAt(i));
+      } 
+      if(name.charAt(i)=='/' || name.charAt(i)=='*' || name.charAt(i)=='+' || name.charAt(i)=='–' || i==name.length()-1){
+        foo = Double.parseDouble(r);
+        r="";
+      }
+      //if(i>0 && name.charAt(i)=='+' /*|| i==name.length()-1*/ ){ result+=foo;}
+       //if(i>0 && name.charAt(i)=='*'){result*=foo;}
+       else if(i>0 && name.charAt(i)=='/' || i==name.length()-1 ){ result=result/foo;}
+      System.out.println(i+">>"+foo+">>"+result); 
+    }
+  }
+}
