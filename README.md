@@ -4,7 +4,7 @@
 * [Java set of standard interfaces](https://www.tutorialspoint.com/java/java_collections.htm)
   * e.g. LinkedList, HashSet, and TreeSet,
   * Stack
-     * [(***)Double Basic Calculation ii.java](https://github.com/tingyuyang/LC_JAVA/blob/master/doubleBasicCalculation%20ii.java)
+     * [(✪✪✪)Double Basic Calculation ii.java](https://github.com/tingyuyang/LC_JAVA/blob/master/doubleBasicCalculation%20ii.java)
        * 知识点有:Stack，Character，Double[(Double)stack.pop()*r) or Double.parseDouble(str)]，How to remove extra spaces，Pop till stack.empty()， Round off decimal points.
      * [Stack.java](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/Stack.java)
   * [HashMap](https://www.tutorialspoint.com/java/java_hashmap_class.htm)
@@ -22,7 +22,7 @@
 * [Call method from another class](http://stackoverflow.com/questions/4593232/how-to-call-a-method-in-another-class-in-java)
 * There are discussion around `Integer ` vs `int` in Java. The default value of the former is `null` while in the latter it's `0`.
  * [Difference b/w `Boolean` vs `boolean`](http://stackoverflow.com/questions/18953251/when-should-i-use-boolean-instead-of-boolean)
-* (***)Use character+ in Hashmap+ read user input+quit program if 'q', 
+* (✪✪✪)Use character+ in Hashmap+ read user input+quit program if 'q', 
  * [userInput + CharMorThanHalf.java](https://github.com/tingyuyang/LC_JAVA/blob/master/input%2BCharMorThanHalf.java)
 
 
