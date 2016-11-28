@@ -24,5 +24,11 @@
  * [Difference b/w `Boolean` vs `boolean`](http://stackoverflow.com/questions/18953251/when-should-i-use-boolean-instead-of-boolean)
 * (✪✪✪)Use character+ in Hashmap+ read user input+quit program if 'q', 
  * [userInput + CharMorThanHalf.java](https://github.com/tingyuyang/LC_JAVA/blob/master/input%2BCharMorThanHalf.java)
+* [what does "Static" do?](http://www.javatpoint.com/static-keyword-in-java)
+ * static variable, method
+
+## Moral of the story:
+> Inherit only if you want to override some behavior.
+> Inherit less, interface more.
 
 
