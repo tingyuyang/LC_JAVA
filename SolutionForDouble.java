@@ -1,3 +1,5 @@
+//String s="-1.3 +5.1/3-0.8";
+//String s ="5.6/0.7*2- 3.5";
 import java.util.*;
 
 public class SolutionForDouble
@@ -17,23 +19,21 @@ public class SolutionForDouble
   public double Solution1(String s){
 	    Character sign = '+';
 	    Stack<Double> stack = new Stack<>();
-	    
-	    //String s="-1.3 +5.1/3-0.8";
-	    //String s ="5.6/0.7*2- 3.5";
-	    s=s.replaceAll("\\s+","");  //remove all the extra space!
+	   
+	    s=s.replaceAll("\\s+","");  
 	    String str ="";
 	    
 	    double r = 0;
 	    double finalResult = 0;
 	    for (int i =0; i<s.length(); i++){
-	      if (i==0 || s.charAt(i)>'0' || s.charAt(i)=='.'){ //***the condition is crutial! "i==0"(for "-1.3")
-	        str+=Character.toString(s.charAt(i));   // not symbol, add into str
+	      if (i==0 || s.charAt(i)>'0' || s.charAt(i)=='.'){ 
+	        str+=Character.toString(s.charAt(i));   
 	      }
-	      if (s.charAt(i)<'0' && s.charAt(i)!='.' && i!=0 || i==s.length()-1){  //***the condition is crutial!
+	      if (s.charAt(i)<'0' && s.charAt(i)!='.' && i!=0 || i==s.length()-1){  
 	        r = Double.parseDouble(str);
 	        if (sign =='+'){stack.push(r);}
 	        if (sign =='-'){stack.push(-r);}
-	        if (sign =='*'){stack.push((Double)stack.pop()*r);}   //***Double for stack.pop()
+	        if (sign =='*'){stack.push((Double)stack.pop()*r);}   
 	        if (sign =='/'){stack.push((Double)stack.pop()/r);}
 	        sign =s.charAt(i);
 	        r=0;
@@ -43,7 +43,7 @@ public class SolutionForDouble
 	    while (stack.empty()==false){
 	      finalResult+= (Double)stack.pop();
 	    }
-	    double roundOff = Math.round(finalResult * 100.0) / 100.0;
-	    return roundOff;
+	    finalResult = Math.round(finalResult * 100.0) / 100.0;
+	    return finalResult;
 	  }
 }
