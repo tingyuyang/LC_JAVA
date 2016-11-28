@@ -6,7 +6,9 @@ Output: 12.5
 Input: -1.3 + 5.1 / 3 – 0.8
 Output: -0.4
 
-Thought reference: http://eugeneyang.com/2016/04/21/Basic%20Calculator%20II%20-%20%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8II/
+Thought reference: 
+http://eugeneyang.com/2016/04/21/Basic%20Calculator%20II%20-%20%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8II/
+
 */
 
 //Solution , read user input
