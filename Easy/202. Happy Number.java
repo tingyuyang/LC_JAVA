@@ -1,4 +1,12 @@
 /*
+Example: 19 is a happy number
+
+12 + 92 = 82
+82 + 22 = 68
+62 + 82 = 100
+12 + 02 + 02 = 1
+repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. 
+
 reference:
 http://www.cnblogs.com/grandyang/p/4447233.html ***
 http://www.cnblogs.com/grandyang/p/5560036.html
