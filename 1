@@ -1,0 +1,23 @@
+import java.util.*;
+
+class Main {
+   int getMax(List<Integer> list){
+    Collections.sort(list);
+    Iterator<Integer> myListIterator = list.iterator();
+    Integer coord =0;
+    while (myListIterator.hasNext()) {
+       coord = myListIterator.next();     
+    }
+    return (coord);
+  }
+  public static void main(String[] args) {
+    Main m = new Main();
+    List<Integer> temp1 = new LinkedList<Integer>();
+    temp1.add(1);
+    temp1.add(4);
+    temp1.add(4);
+    temp1.add(1);
+    System.out.println(m.getMax(temp1));
+  }
+}
+//////
