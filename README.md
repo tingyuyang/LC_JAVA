@@ -31,4 +31,8 @@
 > Inherit only if you want to override some behavior.
 > Inherit less, interface more.
 
+## Initialization
+* List<Integer> list = new ArrayList<Integer>();
+* Set<Integer> set = new HashSet<Integer>();
+
 
