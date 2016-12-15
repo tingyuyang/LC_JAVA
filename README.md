@@ -26,15 +26,7 @@
  * [userInput + CharMorThanHalf.java](https://github.com/tingyuyang/LC_JAVA/blob/master/input%2BCharMorThanHalf.java)
 * [what does "Static" do?](http://www.javatpoint.com/static-keyword-in-java)
  * static variable, method
-* String can't do "==" sign, could only do ".equals"
-* 
- ```java
-  String stored ="";
-		stored += "ab";
-		if (stored.equals("ab")){ //can't do stored =="ab", "==" is for primitive type
-			System.out.println("True");
-		}
- ```
+* [String can't do "==" sign, could only do ".equals"(e.g.3)](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/BasicNote.java)
 
 ## Moral of the story:
 > Inherit only if you want to override some behavior.
