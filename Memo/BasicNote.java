@@ -37,6 +37,19 @@ class Main {
 //hello world  
 }
 
+//string .equals
+public class Main {
+	public static void main(String[] args) {
+		String str = "aba";
+		String stored ="";
+		stored += "ab";
+		if (stored.equals("ab")){ //can't do "stored == "ab"" here
+			System.out.println("True");
+		}
+		System.out.println(stored + " "+ str);
+	}
+}
+
 
 
 
