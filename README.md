@@ -26,7 +26,7 @@
  * [userInput + CharMorThanHalf.java](https://github.com/tingyuyang/LC_JAVA/blob/master/input%2BCharMorThanHalf.java)
 * [what does "Static" do?](http://www.javatpoint.com/static-keyword-in-java)
  * static variable, method
-* [String ".equals" (not"==" sign)](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/BasicNote.java)(e.g.3)
+* String ".equals" (not"==" sign)[Ex3](https://github.com/tingyuyang/LC_JAVA/blob/master/Memo/BasicNote.java)
  * "==" is for primitive type, string is an object
 
 ## Moral of the story:
