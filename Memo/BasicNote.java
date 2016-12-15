@@ -37,6 +37,7 @@ class Main {
 //hello world  
 }
 
+//e.g.3
 //string .equals
 public class Main {
 	public static void main(String[] args) {
